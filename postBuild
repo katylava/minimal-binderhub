@@ -1,3 +1,4 @@
+echo "it worked" >> diditwork.txt
+pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
-jupyter nbextension install https://rawgithub.com/minrk/ipython_extensions/master/nbextensions/gist.js
-jupyter nbextension enable gist
+jupyter nbextension enable codefolding/main
